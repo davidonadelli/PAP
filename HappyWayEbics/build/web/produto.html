@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <title>CRM - HAPPY WAY</title>
+        <meta charset="utf-8">
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/estilo.css">
+        <link rel="icon" href="img/icon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="img/icon.ico" type="image/x-icon" />
+        <!-- Chamadas JS -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>        
+    </head>
+
+    <body>
+
+
+
+        <!-- BEGIN # BOOTSNIP INFO -->
+        <div class="container">
+            <div class="row">
+
+                <p class="text-center"><a href="#" class="btn btn-primary btn-lg" role="button" data-toggle="modal" data-target="#login-modal">Adicionar produto</a></p>
+            </div>
+        </div>
+        <!-- END # BOOTSNIP INFO -->
+
+        <!-- BEGIN # MODAL LOGIN -->
+        <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+
+                    <div id="main" class="container-fluid">
+
+                        <h3 class="page-header">Adicionar Produto</h3>
+
+                        <form action="index.html">
+                            <div class="row">
+                                <div class="form-group col-md-3">
+                                    <label for="exampleInputEmail1">Código Produto</label>
+                                    <input type="text" class="form-control" id="CodProduto" placeholder="Digite o valor">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="exampleInputEmail1">Nome Produto</label>
+                                    <input type="text" class="form-control" id="NomeProduto" placeholder="Digite o valor">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-4">
+                                    <label for="exampleInputEmail1">Valor Venda</label>
+                                    <input type="number" class="form-control" id="valorVenda" placeholder="Digite o valor">
+                                </div>
+                            </div>
+
+
+                            <div class="row">
+                                <div class="form-group col-md-4">
+                                    <label for="exampleInputEmail1">Valor Custo</label>
+                                    <input type="number" class="form-control" id="valorCusto" placeholder="Digite o valor">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-3">
+                                    <label for="exampleInputEmail1">Quantidade</label>
+                                    <input type="number" class="form-control" id="quantProduto" placeholder="Digite o valor">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="exampleInputEmail1">Descrição Produto</label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+                                        <textarea class="form-control" name="descricaoProd" placeholder="Descrição"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <button type="submit" class="btn btn-primary">Salvar</button>
+                                    <a href="Vendas.html" class="btn btn-default">Cancelar</a>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- END # MODAL LOGIN -->
+
+
+
+
+    </body>
+</html>
